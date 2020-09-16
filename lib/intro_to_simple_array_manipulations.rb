@@ -1,4 +1,4 @@
-require 'pry'
+
 continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
 
 def using_push (array, string)
@@ -19,3 +19,6 @@ def using_pop(continents)
   continents.size
 end
 
+def pop_with_args(dog_breeds)
+  
+end
