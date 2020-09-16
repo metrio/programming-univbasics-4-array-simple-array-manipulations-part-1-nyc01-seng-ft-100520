@@ -1,6 +1,7 @@
 
 continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
 dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
 
 def using_push (array, string)
   array = []
@@ -27,8 +28,9 @@ def pop_with_args(dog_breeds)
 end
 
 def using_shift(my_favorite_cities)
-  my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
   im_so_over_this_city = my_favorite_cities.shift
+  return im_so_over_this_city
+  my_favorite_cities.size
 end
 
 
