@@ -1,4 +1,5 @@
 require 'pry'
+continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
 
 def using_push (array, string)
   array = []
@@ -13,8 +14,8 @@ def using_unshift(bouroughs_in_nyc, new_neighborhood)
 end
 
 def using_pop(continents)
-  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   deleted_string = continents.pop
   return deleted_string
+  continents.size
 end
 
