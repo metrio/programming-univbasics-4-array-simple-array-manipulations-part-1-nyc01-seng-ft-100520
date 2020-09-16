@@ -1,6 +1,8 @@
 
 continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
 
+dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+
 def using_push (array, string)
   array = []
   string = "violet"
