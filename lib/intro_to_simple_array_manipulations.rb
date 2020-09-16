@@ -26,6 +26,7 @@ def pop_with_args(dog_breeds)
   small_dogs.size
 end
 
-def using_shift
+def using_shift(my_favorite_cities)
+end
 
 
