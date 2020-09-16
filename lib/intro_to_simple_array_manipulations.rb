@@ -19,4 +19,3 @@ def using_pop(continents)
   binding.pry
 end
 
-binding.pry
