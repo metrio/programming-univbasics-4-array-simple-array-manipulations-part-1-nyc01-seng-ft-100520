@@ -2,6 +2,7 @@
 continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
 dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
 my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
 
 def using_push (array, string)
   array = []
@@ -33,6 +34,7 @@ def using_shift(my_favorite_cities)
   my_favorite_cities.size
 end
 
-def shift_with_args()
-
+def shift_with_args(ice_cream_brands)
+  
+end
 
