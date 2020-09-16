@@ -1,8 +1,6 @@
 
 continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
 
-dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-
 def using_push (array, string)
   array = []
   string = "violet"
@@ -22,5 +20,6 @@ def using_pop(continents)
 end
 
 def pop_with_args(dog_breeds, small_dogs)
+  dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   small_dogs = dog_breeds.pop(2)
 end
