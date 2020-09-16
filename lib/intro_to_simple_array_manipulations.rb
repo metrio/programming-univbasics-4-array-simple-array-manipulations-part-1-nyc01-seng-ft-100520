@@ -16,6 +16,7 @@ def using_pop(continents)
   deleted_string = continents.pop
   return deleted_string
   continents.size
+  binding.pry
 end
 
 binding.pry
