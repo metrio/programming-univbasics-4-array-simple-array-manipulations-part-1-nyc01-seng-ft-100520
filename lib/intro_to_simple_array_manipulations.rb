@@ -18,3 +18,4 @@ def using_pop(continents)
   continents.size
 end
 
+binding.pry
